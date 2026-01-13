@@ -22,9 +22,9 @@ Figure_5/BPfinder_plots_human.R corresponds to Figure 5A-C (same method is used 
 
 Figure_5/bp_2_3ss_accessibility_plot.R corresponds to Figure 5D
 
-Figure_6/rmats_psi_heatmap.R corresponds to Figure 6A (same method is used for Supp Figure S26
+Figure_6/rmats_psi_heatmap.R corresponds to Figure 6A (same method is used for Supp Figure S26)
 
-Figure_6/edgeR_analysis_plots.R corresponds to Figure 6B and C and Supp Figure S27
+Figure_6/edgeR_analysis_plots.R corresponds to Figure 6B and C and Supp Figures S27 and S29
 
 Supplemental_Figures/structure_at_RNAalifold.R corresponds to Supp Figure S22
 

@@ -56,7 +56,7 @@ colnames(tpm_summary) <- c("IDs", "psi1", "Tissue", "Stage", "mean_TPM")
 combo <- merge(tpm_summary, heatmap, by = c("Tissue", "Stage", "psi1"))
 
 corr_val <- cor(combo$PSI, combo$mean_TPM, 
-                use = "complete.obs", method = "pearson")
+                use = "complete.obs", method = "spearman")
 combo %>%
   ggplot(aes(x = PSI, y = mean_TPM)) +
   geom_point() +
